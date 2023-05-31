@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    margin: 50px 400px;
+    align-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    justify-content: left;
+    background-color: yellow;
+    border-right: 1px dotted black;
+    border-left: 1px dotted black;
+    border-bottom: 2px dotted red;
+}
+
+th, td {
+    border-top-width: 1px;
+    border-top-style: dotted;
+    border-top-color: black;
+}
+
+.dotted-right{
+    border-right-width: 1px;
+    border-right-style: dotted;
+    border-right-color: black
+}
+
+th{
+    color: red;
+}
